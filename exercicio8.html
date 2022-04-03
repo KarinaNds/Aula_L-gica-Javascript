@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio8</title>
+</head>
+<body>
+
+    <script>
+
+        var numero1 = parseFloat(prompt("Digite o primeiro numero:"))
+        var numero2 = parseFloat(prompt("Digite o segundo numero:"))
+        var numero3 = parseFloat(prompt("Digite o terceiro numero:"))
+        var numero4 = parseFloat(prompt("Digite o quarto numero:"))
+
+        if(numero1 <= 10 && numero1 > 0){
+            var inf1 = numero1
+        }else{
+            var inf1 = 0
+        }
+        if(numero2 <= 10 && numero2 > 0){
+            var inf2 = numero2
+        }else{
+            var inf2 = 0
+        }
+        if(numero3 <= 10 && numero3 > 0){
+            var inf3 = numero3
+        }else{
+            var inf3 = 0
+        }
+        if(numero1 <= 10 && numero1 > 0){
+            var inf4 = numero4 
+        }else{
+            var inf4 = 0
+        }
+
+        var media = (inf1 + inf2 + inf3 + inf4) / 4 
+
+        if(media > 5){
+            document.write("Você passou no teste")
+        }else{
+            document.write("Tente novamente")
+        }
+    </script>
+    
+</body>
+</html>
